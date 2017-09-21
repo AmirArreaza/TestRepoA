@@ -12,3 +12,5 @@ git pull <%Remote Repository%>				// Merging upstream changes into your local re
 											// The --rebase option can be used to ensure a linear history by preventing unnecessary merge commits.
 											
 git push <%remote%> <%branch%>				// Pushing is how you transfer commits from your local repository to a remote repo.
+
+BranchB
