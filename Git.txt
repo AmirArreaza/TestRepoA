@@ -14,3 +14,4 @@ git pull <%Remote Repository%>				// Merging upstream changes into your local re
 git push <%remote%> <%branch%>				// Pushing is how you transfer commits from your local repository to a remote repo.
 
 BranchB
+C
