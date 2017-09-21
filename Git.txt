@@ -1,1 +1,14 @@
 GIT
+
+git clone <%Remote Repository%> 			// target an existing repository and create a clone, or copy of the target repository
+git init									// creates a new Git repository.
+git config									// is a convenience function that is used to set Git configuration values on a global or local project level.
+
+git fetch <%Remote Repository%>				//  imports commits from a remote repository into your local repo.
+
+
+git pull <%Remote Repository%>				// Merging upstream changes into your local repository is a common task in Git-based collaboration workflows. 
+											// We already know how to do this with git fetch followed by git merge, but git pull rolls this into a single command.
+											// The --rebase option can be used to ensure a linear history by preventing unnecessary merge commits.
+											
+git push <%remote%> <%branch%>				// Pushing is how you transfer commits from your local repository to a remote repo.
